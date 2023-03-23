@@ -90,7 +90,7 @@ html{
     background-position: 100% 0%;
     background-size: 1000px;
 }
-#Content_1, #Content_2, #Content_3, #Content_4{
+#Content_1, #Content_2, #Content_3, #Content_4, #Content_5{
     justify-content: center;
     align-items: center;
     display: flex;
@@ -98,6 +98,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+    padding-left: 150px;
     margin-bottom: 180px;
 }
 #Content_1{
@@ -105,7 +106,8 @@ html{
     padding-top: 100px;
 }
 .content{
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
 .Picture
@@ -304,6 +306,10 @@ html{
 
 #Content_5{
 
+}
+#Content_5 .Picture5_1{
+    width: 600px;
+    height: 600px;
 }
 #Content_6{
 
