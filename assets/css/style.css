@@ -12,11 +12,12 @@ html{
     clear: both;
 }
 #wrapper{
-
+    width: 100%;
 }
 #Logo{
     width: 40px;
     padding: 2px 0 0 2px;
+    margin: 10px;
 }
 #Header > #Menu-header{
     margin: auto;
@@ -62,7 +63,7 @@ html{
 #Menu-header .Menu :hover{
     color: #35b8be;
 }
-#Menu-header .item-Menu {
+.item-Menu {
     text-decoration: none;
     color: #6c6f70;
     font-weight: 500;
@@ -98,7 +99,6 @@ html{
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    padding-left: 120px;
     margin-bottom: 180px;
 }
 #Content_1{
@@ -418,16 +418,23 @@ html{
 }
 #Slider{
     display: flex;
-    width: 100%;
-    margin: 100px;
-    justify-content: space-between;
+    width: 90%;
+    /* margin: 100px; */
+    margin: auto;
+    margin-bottom: 200px;
     
 }
 #Slider .Slider_1{
-    width: 49%;
+    width: 50%;
     max-height: 650px;
-    object-fit:cover;
+    margin: 10px;
+    
 
+}
+#Slider .Slider_picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #Slider .Slider_2{
     width: 50%;
@@ -435,6 +442,7 @@ html{
     align-items: center;
     background-color: #35b8be;
     display: flex;
+    margin: 10px;
 }
 #Slider .Slider_2_1{
 margin-left: 50px;
@@ -454,5 +462,50 @@ margin-left: 50px;
     font-size: 18px; 
 }
 #Footer{
+    /* width: 1400px; */
+    
+}
+#Footer .Footer_top{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+    padding-bottom: 100px;
+    border-bottom: 0.1px #6f6f6f solid;
+}
+#Footer .Footer_1{
+    width: 30%;
+    
+}
+#Footer .Footer_text{
+    width: 230px;
+}
+#Footer .Footer_2{
+    width: 50%;
+    display: flex;
+}
+#Footer .Footer_2_1{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+}
+#Footer .item-Menu{
+    padding-top: 20px;
+    text-decoration: none;
+}
 
+#Footer .sub_item{
+    text-decoration: none;
+    letter-spacing: 1.2px;
+}
+#Footer .Footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 200px;
+    margin: auto;
+    padding-top: 100px;
+}
+#Footer .left_Footer{
+    
 }
