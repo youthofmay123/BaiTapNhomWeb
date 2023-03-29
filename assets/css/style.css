@@ -366,6 +366,17 @@ html{
     border-radius: 10px;
     margin: 16px auto;
 }
+.product-item:hover{
+    font-family: sans-serif;
+    height: 200px;
+    width: 577px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    border: 1px solid #35b8be;
+    border-radius: 10px;
+    margin: 16px auto;
+}
 .product-item img {
     padding-right: 24px;
 }
