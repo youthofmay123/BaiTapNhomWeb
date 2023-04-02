@@ -504,8 +504,12 @@ margin-left: 50px;
     display: flex;
     width: 90%;
 }
+#Footer .menu_title{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 #Footer .item-Menu{
-    padding-top: 20px;
+    padding-top: 30px;
     text-decoration: none;
 }
 
@@ -528,6 +532,9 @@ margin-left: 50px;
     width: 30px;
     height: 30px;
     border-radius: 100px;
+}
+#Footer .list_icon{
+    padding: 10px;
 }
 #Footer .list_icon{
     padding: 10px;
