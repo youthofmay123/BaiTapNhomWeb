@@ -64,7 +64,7 @@ html{
 #Menu-header .Menu :hover{
     color: #35b8be;
 }
-.item-Menu {
+#Menu-header .Menu a{
     text-decoration: none;
     color: #6c6f70;
     font-weight: 500;
@@ -510,12 +510,13 @@ margin-left: 50px;
 }
 #Footer .item-Menu{
     padding-top: 30px;
-    text-decoration: none;
 }
 
-#Footer .sub_item{
+#Footer .Footer_2_1 a{
     text-decoration: none;
+    padding-top: 30px;
     letter-spacing: 1.2px;
+    color: #6d7680;
 }
 #Footer .Footer_bottom{
     display: flex;
@@ -525,17 +526,12 @@ margin-left: 50px;
     margin: auto;
     padding-top: 100px;
 }
-#Footer .left_Footer{
-    
-}
+
 #Footer .icon{
     width: 30px;
     height: 30px;
     border-radius: 100px;
 }
-#Footer .list_icon{
-    padding: 10px;
-}
-#Footer .list_icon{
+#Footer .right_footer a{
     padding: 10px;
 }
