@@ -1,0 +1,7 @@
+#wrapper{
+    background: url('/assets/img/slider_picture.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: fixed;
+
+}
