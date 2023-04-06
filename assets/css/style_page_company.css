@@ -2,8 +2,12 @@
     background: url('/assets/img/slider_picture.png') no-repeat;
     background-size: cover;
     background-position: center;
-    /* background: local; */
+    
+    object-fit:unset;
 
+}
+#Header{
+    background-color: #fff;
 }
 .part_1{
     background-color: #f0f7f7;
@@ -30,6 +34,7 @@
 }
 .part_2{
     height: 910px;
+    background-color: #fff;
 }
 .part_3{
     height: 500px;
