@@ -2,6 +2,36 @@
     background: url('/assets/img/slider_picture.png') no-repeat;
     background-size: cover;
     background-position: center;
-    background: fixed;
+    /* background: local; */
 
+}
+.part_1{
+    background-color: #f0f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.part_1_background{
+    background: url('/assets/img/text_backgrond.png') no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-color: #f0f7f7;
+    width: 600px;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-content{
+    width: 100%;
+    text-align: center;
+}
+.part_2{
+    height: 910px;
+}
+.part_3{
+    height: 500px;
+    background: transparent;
 }
