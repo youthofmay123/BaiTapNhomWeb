@@ -36,6 +36,17 @@
     height: 910px;
     background-color: #fff;
 }
+.company_content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-bottom: 180px;
+}
+
 .part_3{
     height: 500px;
     background: transparent;
