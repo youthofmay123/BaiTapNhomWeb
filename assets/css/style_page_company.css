@@ -52,10 +52,6 @@
 }
 
 
-.part_3{
-    height: 500px;
-    background: transparent;
-}
 
 .Picture{
     position: relative;
@@ -92,3 +88,19 @@
 
 }
 
+.part_3{
+    height: 500px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.item{
+    list-style-type: none;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin-left: 50px;
+    text-align: center;
+}
