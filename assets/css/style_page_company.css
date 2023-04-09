@@ -1,5 +1,6 @@
 #wrapper{
     background: url('/assets/img/slider_picture.png') no-repeat;
+    opacity: 1;
     background-size: cover;
     background-position: center;
     object-fit:unset;
@@ -96,11 +97,30 @@
     align-items: center;
     width: 100%;
 }
+.list_item{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
 .item{
-    list-style-type: none;
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 200px;
-    background: #fff;
+}
+.item li{
+    list-style-type: none;
     margin-left: 50px;
     text-align: center;
+}
+.number{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.text{
+    margin-top: 10px;
+    color: #fff;
 }
