@@ -1,3 +1,8 @@
+#Logo{
+    width: 40px;
+    padding: 2px 0 0 2px;
+    margin: 10px;
+}
 #Header > #Menu-header{
     margin: auto;
     width: 1400px;
