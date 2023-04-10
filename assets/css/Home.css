@@ -167,9 +167,10 @@
 
 #Content_3 .member-name{
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
+    padding: 10px 0;
 }
-#Content_3 .content-member-name{
+#Content_3 .text_content{
     width: 300px;
     margin: auto;
     font-size: var(--text_1_font);
