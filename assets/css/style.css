@@ -22,17 +22,20 @@ html{
 #wrapper{
     width: 100%;
 }
-#Content_4{
+
+.Content_section{
+    display: flex;
+    width: 1200px;
     justify-content: center;
     align-items: center;
-    display: flex;
-    width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-    margin-bottom: 180px;
 }
-#Content_4{
+#Content_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+#Content_4 .Content_section{
     display: flex;
     flex-direction: column;
     align-items: center;
