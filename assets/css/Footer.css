@@ -39,7 +39,7 @@
     text-decoration: none;
     padding-top: 30px;
     letter-spacing: 1.2px;
-    color: #6d7680;
+    color: var(--sub-color_1);
 }
 #Footer .Footer_bottom{
     display: flex;

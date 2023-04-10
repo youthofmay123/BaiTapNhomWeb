@@ -8,8 +8,13 @@ html{
 }
 :root {
     --primary-color: #35B8BE;
+    --sub-color_1: #546285;
+    --sub-color_2: #08090A;
+
     --text_1_font: 18px;
-    --text_1_color: #546285;
+    --text_2_font: 55px;
+
+    --button-radius: 6px;
 }
 .clear{
     clear: both;
@@ -46,7 +51,7 @@ html{
 
 #Content_4 .header .title{
     font-size: 55px;
-    color: #35b8be;
+    color: var(--primary-color);
     margin: 24px 0;
 }
 #Content_4 .header .sub-title{
@@ -59,7 +64,7 @@ html{
     /* margin-left: auto;
     margin-right: auto; */
     margin: auto;
-    width: 40%;
+    width: 50%;
 }
 .Picture
 {
@@ -72,19 +77,19 @@ html{
 .Button{
     margin-top: 50px;
     padding: 20px 35px;
-    border-radius: 6px;
+    border-radius: var(--button-radius);
     background-color: var(--primary-color);
     width: 200px;
     text-decoration: none;
     font-weight: 700;
-    color: white;
+    color: #fff;
     
 }
 
 .heading-content{
     max-width: 580px;
     margin-bottom: 30px;
-    color: #08090a;
+    color: var(--sub-color_2);
     font-size: 55px;
     line-height: 1;
     letter-spacing: -0.03em;
@@ -96,7 +101,7 @@ html{
 }
 .main-content{
     margin-bottom: 80px;
-    color: var(--text_1_color);
+    color: var(--sub-color_1);
     font-size: var(--text_1_font);
     line-height: 1.34;
     font-weight: 400;
@@ -165,5 +170,5 @@ html{
 }
 .product-item .sub-title {
     font-size: 16px;
-    color: var(--text_1_color)
+    color: var(--sub-color_1)
 }
