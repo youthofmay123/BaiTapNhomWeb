@@ -174,34 +174,6 @@
     color: #6d7680;
     letter-spacing: 5px;
 }
-#Content_4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#Content_4 .products {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#Content_4 .header{
-    width: 490px;
-    text-align: center;
-}
-
-#Content_4 .header .title{
-    font-size: 55px;
-    color: #35b8be;
-    margin: 24px 0;
-}
-#Content_4 .header .sub-title{
-    font-size: 18px;
-    color:#747e97;
-    line-height: 28px;
-}
-
 #Content_5{
 
 }
