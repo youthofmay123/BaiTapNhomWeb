@@ -1,9 +1,4 @@
 #wrapper{
-    background: url('/assets/img/slider_picture.png') no-repeat;
-    opacity: 1;
-    background-size: cover;
-    background-position: center;
-    object-fit:unset;
 
 }
 #Header{
@@ -31,7 +26,14 @@
 .heading-content{
     width: 100%;
 }
+.part2_3{
+    position: relative;
+    background: url('/assets/img/slider_picture.png') no-repeat;
+    background-size: cover;
+}
+
 .part_2{
+    position: relative;
     display: flex;
     height: 910px;
     background-color: #fff;

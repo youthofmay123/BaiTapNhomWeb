@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 html{
-    font-family: sans-serif;
-   
+    font-family: Inter, sans-serif;
+}
+:root {
+    --primary-color: #35B8BE;
+    --text_1_font: 18px;
+    --text_1_color: #546285;
 }
 
 .clear{
@@ -132,12 +136,12 @@ html{
     
 }
 .text_color{
-    color:  #35b8be;
+    color: var(--primary-color);
 }
 .main-content{
     margin-bottom: 80px;
-    color: #546285;
-    font-size: 18px;
+    color: var(--text_1_color);
+    font-size: var(--text_1_font);
     line-height: 1.34;
     font-weight: 400;
     width: 560px;
@@ -149,7 +153,7 @@ html{
     margin-top: 50px;
     padding: 20px 35px;
     border-radius: 6px;
-    background-color:#35b8be;
+    background-color: var(--primary-color);
     width: 200px;
     text-decoration: none;
     font-weight: 700;
@@ -216,7 +220,8 @@ html{
 #Content_3 .content-member-name{
     width: 300px;
     margin: auto;
-    font-size: 18px;
+    font-size: var(--text_1_font);
+    color: var(--text_1_color);
     line-height: 1.5;
 }
 #Content_3 .member-img{
@@ -304,7 +309,7 @@ html{
     display: flex;
     align-items: center;
     padding: 0 24px;
-    border: 1px solid #35b8be;
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
     margin: 16px auto;
 }
@@ -317,7 +322,7 @@ html{
 }
 .product-item .sub-title {
     font-size: 16px;
-    color: #7d86a0;
+    color: var(--text_1_color)
 }
 #Content_5{
 
@@ -353,7 +358,7 @@ html{
     position: absolute;
     width: 80px;
     height: 80px;
-    background-color: #35b8be;
+    background-color: var(--primary-color);
     border-radius: 20px;
     left: 70px;
     bottom: 120px;
@@ -382,7 +387,7 @@ html{
     width: 50%;
     height: 650px;
     align-items: center;
-    background-color: #35b8be;
+    background-color: var(--primary-color);
     display: flex;
     margin: 10px;
 }
@@ -400,7 +405,7 @@ margin-left: 50px;
 }
 #Slider .Button{
     background-color: #fff;
-    color: #08878e;
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 18px; 
 }
