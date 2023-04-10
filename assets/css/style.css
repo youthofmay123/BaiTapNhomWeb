@@ -19,6 +19,17 @@ html{
 .clear{
     clear: both;
 }
+.h1_text{
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text_color{
+    color: var(--primary-color);
+}
+
 #wrapper{
     width: 100%;
 }
@@ -89,20 +100,7 @@ html{
     
 }
 
-.heading-content{
-    max-width: 580px;
-    margin-bottom: 30px;
-    color: var(--sub-color_2);
-    font-size: 55px;
-    line-height: 1;
-    letter-spacing: -0.03em;
-    font-weight: 700;
-    
-}
-.text_color{
-    color: var(--primary-color);
-}
-.main-content{
+.text_content{
     margin-bottom: 80px;
     color: var(--sub-color_1);
     font-size: var(--text_1_font);

@@ -257,9 +257,10 @@
 }
 
 #Slider .Slider_2_1{
-margin-left: 50px;
+    margin-left: 50px;
+    width: 35%;
 }
-#Slider .heading-content{
+#Slider .h1_text{
     color: #08878e;
     align-items: center;
     margin-bottom: 100px;
