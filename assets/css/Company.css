@@ -23,8 +23,9 @@
     justify-content: center;
     align-items: center;
 }
-.heading-content{
+.h1_text{
     width: 100%;
+    text-align: center;
 }
 .part2_3{
     position: relative;

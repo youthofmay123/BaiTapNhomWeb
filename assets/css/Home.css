@@ -92,7 +92,9 @@
     top: 20%;
     /* transform: translateY(-75%); */
 }
-
+#Content_1 .h1_text{
+    font-size: 60px;
+}
 #Content_1 .Picture1, #Content_2 .Picture2{
     max-width: 100%
 }
