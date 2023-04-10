@@ -6,10 +6,9 @@
 }
 body{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: right;
     min-height: 100vh;
-    width: 100%;
     background: url('/assets/img/login_background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,9 +24,8 @@ body{
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     overflow: hidden;
-    margin-right: 100px;
     /* transform: scale(0); */
     transition: transform .5s ease, height .2s ease;
 }
@@ -58,6 +56,23 @@ body{
     transform: translateX(0);
 }
 
+
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
 
 .form-box h2{
     font-size: 2em;
