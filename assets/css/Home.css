@@ -133,7 +133,9 @@
     background-position: center;
     position: relative;
 }
-
+#Content_3 .h1_text{
+    text-align: center;
+}
 #Content_2 .content, #Content_6 .content{
     background: url('/assets/img/text_backgrond.png') no-repeat;
     background-size: contain;
@@ -261,7 +263,8 @@
 
 #Slider .Slider_2_1{
     margin-left: 50px;
-    width: 35%;
+    width: 500px;
+    min-width: 50px;
 }
 #Slider .h1_text{
     color: #08878e;
