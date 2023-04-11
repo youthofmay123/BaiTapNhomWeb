@@ -168,7 +168,7 @@ a:hover{
 }
 .button{
     width: 80px;
-    height: 18px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
