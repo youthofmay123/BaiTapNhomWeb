@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="./assets/css/Header.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,27 +13,58 @@
             <p>We're open and avaiable for takeaway & delivery. <a href="./order.html">Order Now</a></p>
         </div>
         <div id="Menu-header">
-            <div class="Logo">
-                <a href="./Home.html">
-                    <img src="./assets/img/Logo.svg" alt="" id="Logo">
-                </a>
-            </div>
-            <div class="Menu">
-                <a href="/Home.html" class="item-Menu">Home</a>
-                <a href="/Order.html" class="item-Menu">Order</a>
-                <a href="/Company.html" class="item-Menu">Company</a>
-                <a href="#" class="item-Menu">FAQ</a>
-                <a href="#" class="item-Menu">Contact</a>
-                <a href="#" class="Cart-btn">
-                    <i class="Cart-icon ti-shopping-cart"></i>
-                </a>
-                <a href="./login.html" class="login">
-                    <div class="button">
-                        Login
+            <div class= "navbar">
+                <div class="Logo">
+                    <a href="./Home.html">
+                        <img src="./assets/img/Logo.svg" alt="" id="Logo">
+                    </a>
+                </div>
+                <div class="Menu">
+                    <ul class="links">
+                        <li><a href="/Home.html">Home</a></li>
+                        <li><a href="/Order.html">Order</a></li>
+                        <li><a href="/Company.html">Company</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="toggle_btn">
+                         <ion-icon name="menu-outline"></ion-icon>
                     </div>
-                </a>
+                    <a href="#" class="Cart-btn">
+                        <i class="Cart-icon ti-shopping-cart"></i>
+                    </a>
+            
+                    <a href="./login.html" class="login">
+                        <div class="button">
+                            Login
+                        </div>
+                    </a>
+                </div>
+                
+                
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="/Home.html">Home</a></li>
+                <li><a href="/Order.html">Order</a></li>
+                <li><a href="/Company.html">Company</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
             </div>
         </div>
     </Header>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn ion-icon')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function() {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contain('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 </html>

@@ -1,11 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #546285;;
+    font-size: 16px;
+}
+a:hover{
+    color: #35B8BE;
+}
+
 #Logo{
     width: 40px;
     padding: 2px 0 0 2px;
     margin: 10px;
-}
-#Header{
-    margin: auto;
-    width: 100%;
 }
 #Slogan-header{
     display: block;
@@ -25,33 +43,108 @@
 }
 
 #Menu-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 20px;
-    font-size: 15px;
+    position: relative;
+    padding: 0 2rem;
+}
+/* Header */
+
+
+.navbar{
     width: 100%;
-    height: 100px;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar .Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.navbar .toggle_btn:hover{
+    background: #35b8be;
+    color: #fff;
+    transition: .5s;
+}
+/*Dropdown menu*/
+.dropdown_menu{
+    display: none;
+    /* position: absolute; */
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s;
+}
+.dropdown_menu.open{
+    height: 240px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: none;
 
 }
-#Menu-header .Menu{
+.dropdown_menu{
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    
 }
-.Menu :hover{
-    color: #35b8be;
+
+/*Responsive design*/
+@media (max-width: 992px){
+    .navbar .links{
+        display: none;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+    .dropdown_menu li{
+        display: block;
+    }
+    .navbar .toggle_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #546285;
+        width: 60px;
+        height: 60px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
 }
-.Menu a{
-    text-decoration: none;
-    color: #6c6f70;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    font-size: 16px;
-    padding: 20px;
-    margin-left: 12px;
+
+@media (max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
 }
+
+
 
 #Menu-header .Cart-btn{
     display: flex;

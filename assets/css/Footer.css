@@ -27,9 +27,13 @@
     display: flex;
     width: 90%;
 }
+#Footer .Menu{
+    
+}
 #Footer .menu_title{
     font-weight: 700;
     letter-spacing: 1px;
+    text-align: center;
 }
 #Footer .item-Menu{
     padding-top: 30px;
