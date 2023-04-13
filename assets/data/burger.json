@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Burger Dreams",
+        "img": "/assets/img/Burger 01.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 9.20 
+    },
+    {
+        "name": "Burger Dreams",
+        "img": "/assets/img/Burger 02.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 9.20 
+    },
+    {
+        "name": "Burger Dreams",
+        "img": "/assets/img/Burger 03.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 9.20 
+    },
+    {
+        "name": "Burger Dreams",
+        "img": "/assets/img/Burger 04.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 9.20 
+    },
+    {
+        "name": "Burger Dreams",
+        "img": "/assets/img/Burger 05.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 9.20 
+    }
+]

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/Home.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
         $(function() {
             $("#Header").load("./Header.html")
@@ -105,13 +106,14 @@
                         <h1 class="h1_text"> <b class="text_color"> Browse our menu </b></h1>
                         <p class="sub-title">Use our menu to place an order online, or <a href="#" class="text_color"> phone </a> our store place a pickup order. Fast and fresh food.</p>
                     </div>
-                    <div class="products">
+                    <div class="products-container">
                         <div class="options">
-                            <a href="#" class="op-burgers" style="background-color: #35b8be; color: #fff;">Burgers</a>
-                            <a href="#" class="op-sides">Sides</a>
-                            <a href="#" class="op-drinks">Drinks</a>
+                                <button class="Button" id="load-products" data-source="/assets/data/burger.json">Burger</button>
+                                <button class="Button">Sides</button>
+                                <button class="Button">Drinks</button>
                         </div>
-                        <div class="table">
+                        <div id="product-list"></div>
+                        <!-- <div class="table">
                             <div class="table-row">
                               <div class="table-cell">
                                 <div class="product-item" style="position: relative;">
@@ -238,7 +240,7 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> -->
                           
                     </div>
                  </div>
@@ -304,5 +306,6 @@
         </div>
         <div id="Footer"></div>
     </div>
+    <script src="/JavaScript/home.js"></script>
 </body>
 </html>
