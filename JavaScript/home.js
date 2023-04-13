@@ -39,13 +39,23 @@ function loadProducts(source) {
 }
 
 loadButtons.forEach(event => {
+  let buttons = document.querySelectorAll('.load-products')
+//   console.log(buttons);
   event.addEventListener('click', () => {
     const source = event.dataset.source; 
     loadProducts(source);
-    
+    buttons.forEach( button => {
+        if (button === event)   
+            button.classList.add('active')
+        else {
+            button.classList.remove('active')
+        }
+    }
+    );
   }
   ); 
 
 });
 loadProducts("/assets/data/burger.json")
+
 
