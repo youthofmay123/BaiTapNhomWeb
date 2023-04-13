@@ -113,12 +113,8 @@ html{
     display: flex;
     justify-content: center;
 }
-.options .Button:hover {
-    background-color: #8f8f8f;
-}
 
-
-.products-container .options>a{
+.products-container .options>{
     display: inline-block;
     text-decoration: none;
     height: 50px;
@@ -130,8 +126,22 @@ html{
     margin: 32px 16px;
     border: 1px solid #f8f2f2;
 }
+.options .btn-order {
+    background-color: #fff;
+    color: #08090A;
+    border: 1px solid #ccc;
+    width: 128px;
+    height: 48px;
+    border-radius: 5%;
+    background-color: #f5fbfc;
+    font-size: 16px;
+    margin: 0 24px;
+}
 
-/* 
+.product-list {
+    width: 100%;
+}
+
 .product-item {
     font-family: sans-serif;
     height: 200px;
@@ -156,4 +166,4 @@ html{
 .product-item .sub-title {
     font-size: 16px;
     color: var(--sub-color_1)
-} */
+} 

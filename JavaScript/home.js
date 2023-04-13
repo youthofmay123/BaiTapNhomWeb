@@ -1,4 +1,4 @@
-const loadButton = document.getElementById('load-products');
+const loadButtons = document.querySelectorAll('.load-products');
 const productList = document.getElementById('product-list');
 
 function loadProducts(source) {
@@ -8,7 +8,7 @@ function loadProducts(source) {
       productList.innerHTML = '';
       products.forEach(product => {
         const productElement = document.createElement('div');
-        productElement.classList.add('col-lg-6', 'table-cell');
+        productElement.classList.add('col-xs-12', 'col-md-6','table-cell');
         productElement.innerHTML = `
         <div class="product-item" style="position: relative;">
         <div class="img">
@@ -35,9 +35,17 @@ function loadProducts(source) {
     .catch(error => {
       console.error('Error loading products:', error);
     });
+    
 }
 
-loadButton.addEventListener('click', event => {
-  const source = event.target.dataset.source; 
-  loadProducts(source);
+loadButtons.forEach(event => {
+  event.addEventListener('click', () => {
+    const source = event.dataset.source; 
+    loadProducts(source);
+    
+  }
+  ); 
+
 });
+loadProducts("/assets/data/burger.json")
+
