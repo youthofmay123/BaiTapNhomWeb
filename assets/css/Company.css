@@ -1,6 +1,4 @@
-#wrapper{
 
-}
 #Header{
     background-color: #fff;
 }
@@ -23,38 +21,35 @@
     justify-content: center;
     align-items: center;
 }
-.h1_text{
+.part_1_background .h1_text{
     width: 100%;
     text-align: center;
 }
 .part2_3{
-    position: relative;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1500px;
     background: url('/assets/img/slider_picture.png') no-repeat;
+    filter: brightness(50%);
     background-size: cover;
+    background-attachment: scroll, fixed;
+    opacity: 1;
+    position: fixed;
+    z-index: -1;
 }
 
 .part_2{
-    position: relative;
     display: flex;
+    background: #fff;
     height: 910px;
-    background-color: #fff;
     align-items: center;
     justify-content: center;
 }
-.Company_content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    height: 100%;
-    padding: 0px;
-    margin-bottom: 180px;
-    
-}
+
 .content{
     width: 50%;
 }
-
 
 
 .Picture{
@@ -94,7 +89,7 @@
 
 .part_3{
     height: 500px;
-    background: transparent;
+    /* background: transparent; */
     display: flex;
     justify-content: center;
     align-items: center;
