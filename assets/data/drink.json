@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Drink Fig & Lime",
+        "img": "/assets/img/drink1.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    },
+    {
+        "name": "Drink Liquor",
+        "img": "/assets/img/drink2.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    },
+    {
+        "name": "Drink Lime",
+        "img": "/assets/img/drink3.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    },
+    {
+        "name": "Drink Cola",
+        "img": "/assets/img/drink4.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    }    
+]

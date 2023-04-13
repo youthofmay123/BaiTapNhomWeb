@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Salad Ceaser",
+        "img": "/assets/img/sides1.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    },
+    {
+        "name": "Beans Slow Cooked",
+        "img": "/assets/img/sides2.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    },
+    {
+        "name": "Fries Cheese",
+        "img": "/assets/img/sides3.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    },
+    {
+        "name": "Fries Rustic",
+        "img": "/assets/img/sides4.png",
+        "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "price": 6.00 
+    }
+    
+]
