@@ -21,7 +21,6 @@
 
 .Picture1_1 > img{
     margin: auto;
-    width: 120%;
     min-width: 200px;
     border-radius: 100px 10px 10px 10px;
 }
@@ -209,7 +208,7 @@
     min-width: 240px;
 }
 #Content_6 .Picture6_1{
-    width: 80%;
+    width: 70%;
     border-radius: 40px;
     margin: auto;
 }
@@ -230,6 +229,9 @@
 }
 #Slider{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
     width: 90%;
     /* margin: 100px; */
     margin: auto;
