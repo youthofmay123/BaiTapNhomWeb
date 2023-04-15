@@ -21,7 +21,7 @@
 
 .Picture1_1 > img{
     margin: auto;
-    min-width: 200px;
+    width: 120%;
     border-radius: 100px 10px 10px 10px;
 }
 .Picture1_1{
@@ -214,7 +214,7 @@
 }
 #Content_6 .Picture6_2{
     position: absolute;
-    right: -40px;
+    right: 30px;
     bottom: 60%;
     border-radius: 30px;
     width: 30%;
@@ -224,7 +224,7 @@
     width: 20%;
     background-color: var(--primary-color);
     border-radius: 20px;
-    left: -20px;
+    left: 20px;
     bottom: 120px;
 }
 #Slider{
@@ -232,37 +232,44 @@
     justify-content: center;
     align-items: center;
     /* flex-wrap: wrap; */
-    width: 90%;
+    width: 99%;
+    height: 500px;
     /* margin: 100px; */
     margin: auto;
     margin-bottom: 150px;
     
 }
 #Slider .Slider_1{
-    width: 50%;
-    max-height: 650px;
-    margin: 10px;
+    width: 100%;
+    height: 100%;
+    padding-right: 9px;
+    
+    /* margin: 10px; */
     
 
 }
 #Slider .Slider_picture{
     width: 100%;
     height: 100%;
+    padding: -10px;
     object-fit: cover;
 }
 #Slider .Slider_2{
-    width: 50%;
-    height: 650px;
+    margin-left: 10px;width: 100%;
+    height: 100%;
+    display: flex;
+    padding: -10px;
     align-items: center;
     background-color: var(--primary-color);
-    display: flex;
+    padding: 0;
     margin: 10px;
+    
 }
 
 #Slider .Slider_2_1{
-    margin-left: 50px;
+    margin-left: 2%;
     width: 500px;
-    min-width: 50px;
+    max-width: 700px;
 }
 #Slider .h1_text{
     color: #08878e;
@@ -274,7 +281,9 @@
 }
 #Slider .Button{
     background-color: #fff;
+    text-align: center;
     color: var(--primary-color);
     font-weight: 500;
     font-size: 18px; 
+    width: 150px;
 }

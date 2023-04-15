@@ -21,12 +21,15 @@ html{
         width: 100%;
         margin: auto;
     } */
-    .Content_section, .Button, .Picture{
+    .Content_section, .Picture{
         display: flex;
         flex-wrap: wrap;
         margin: auto;
         width: 100%;
         text-align: center;
+    }
+    .Button{
+        margin: auto;
     }
     .Picture{
         margin-top: 20px;
@@ -35,6 +38,11 @@ html{
         width: 100%;
         text-align: center;
     }
+    #Slider{
+        display: inline-block;
+        margin: auto;
+    }
+    
 }
 .banner {
     width: 100%;
@@ -139,9 +147,12 @@ html{
     background-color: var(--primary-color);
     text-align: center;
     width: 40%;
-    min-width: 300px;
+    min-width: 190px;
     text-decoration: none;
     font-weight: 700;
+    color: #fff;
+}
+.Button:hover{
     color: #fff;
 }
 
