@@ -11,7 +11,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 140px 3%;
+    padding: 120px 3%;
 }
 
 #Content_1{
@@ -19,73 +19,70 @@
     padding-top: 100px;
 }
 
-.Picture1_1{
+.Picture1_1 > img{
     margin: auto;
-    width: 416px;
-    height: 535px;
+    width: 120%;
+    min-width: 200px;
     border-radius: 100px 10px 10px 10px;
 }
-.Picture1_2{
+.Picture1_1{
+    position: relative;
+}
+.Picture1_2 {
     position: absolute;
-    width: 210px;
-    height: 210px;
-    right: 40px;
-    bottom: 0px;
+    text-align: center;
+    width: 80%;
+    right: -180px;
+    bottom: -50px;
 }
 .Picture1_2_1{
     border-radius: 100px;
+    width: 60%;
+    min-width: 100px;
 }
 .Picture1_2_2{
     position: absolute;
-    width: 70px;
-    height: 70px;
-    right: 50%;
+    width: 20%;
+    left: 50px;
     transform: translateX(-50%);
     border-radius: 10px;
     background-color: #fff;
-    padding: 17px;
-    margin-right: 30px;
-    margin-top: 30px;
+    padding: 5%;
+    margin-top: 40px;
     /* padding: 20px; */
 }
 .Picture1_2_3{
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 20%;
     border-radius: 17px;
-    margin-top: 20px;
-    right: 2px;
+    right: 50px;
 }
 .Picture1_3{
     position: absolute;
-    left: 50px;
-    bottom: 0px;
+    bottom: 10px;
+    left: 20px;
     transform: scaleX(-1);
-    width: 130px;
+    width: 20%;
+    min-width: 100px;
     /* margin-right: 100px; */
 }
 .Picture2_1{
-    margin-left: 100px;
-    width: 360px;
-    height: 610px;
-    border-radius: 40px;
+    width: 60%;
+    border-radius: 20px;
     right: 50%;
 }
 .Picture2_2
 {
     position: absolute;
-    width: 150px;
-    height: 160px;
+    width: 25%;
     border-radius: 25px;
-    right: 80px;
+    right: 10%;
     top: 50%;
     transform: translateY(-25%);
 }
 .Picture2_3
 {
-    width: 80px;
-    height: 80px;
-    color: #fff;
+    width: 15%;
     border-radius: 20px;
     position: absolute;
     left: 50px;
@@ -122,7 +119,9 @@
     /* background-image: url(/assets/img/background.svg); */
     /* background-size: contain; */
 }
-
+#Content_2 .Picture{
+    min-width: 400px;
+}
 #Content_4 .header{
     text-align: center;
     margin: auto;
@@ -140,10 +139,6 @@
     background: url('/assets/img/text_backgrond.png') no-repeat;
     background-size: contain;
 }
-#Content_2 .heading-content{
-    width: 372.86px;
-    height: 110.03px;
-}
 
 #Content_3 .Content_section{
     display: block;
@@ -151,7 +146,6 @@
     margin-top: 100px;
 }
 #Content_3 .heading-content{
-   margin: auto;
    text-align: center;
    
    /* transform: translateX(-50%); */
@@ -159,23 +153,25 @@
 #Content_3 .member-list{
     margin-top: 48px;
     /* margin-left: 80px; */
-    display: flex;
-    justify-content: space-between;
     /* overflow: hidden; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 #Content_3 .member-item{
-    /* width: 33.33333%; */
+    width: 30%;
     /* width: calc(100% / 3); */
-    text-align: center;
+    
 }
 
 #Content_3 .member-name{
     font-size: 22px;
     font-weight: 600;
     padding: 10px 0;
+    text-align: center;
 }
 #Content_3 .text_content{
     width: 300px;
+    text-align: center;
     margin: auto;
     font-size: var(--text_1_font);
     color: var(--sub-color_1);
@@ -187,7 +183,9 @@
 }
 #Content_3 .line_colum{
     display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: center;
     margin-bottom: 70px;
     font-weight: 300;
     color: var(--sub-color_1);
@@ -197,39 +195,37 @@
 
 }
 #Content_5 .Picture5_1{
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    min-width: 400px;
     margin: auto;
 }
 #Content_5 .Picture5_2{
     position: absolute;
+    width: 40%;
     top: 0px;
     left: 0px;
 }
-#Content_6{
-
+#Content_6 .Button{
+    min-width: 240px;
 }
 #Content_6 .Picture6_1{
-    width: 400px;
-    height: 570px;
+    width: 80%;
     border-radius: 40px;
     margin: auto;
 }
 #Content_6 .Picture6_2{
     position: absolute;
-    right: 40px;
+    right: -40px;
     bottom: 60%;
     border-radius: 30px;
-    width: 155px;
-    height: 155px;
+    width: 30%;
 }
 #Content .Picture6_3{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 20%;
     background-color: var(--primary-color);
     border-radius: 20px;
-    left: 70px;
+    left: -20px;
     bottom: 120px;
 }
 #Slider{

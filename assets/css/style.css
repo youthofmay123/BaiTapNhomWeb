@@ -16,8 +16,24 @@ html{
 
     --button-radius: 6px;
 }
-.clear{
-    clear: both;
+@media (max-width: 992px){
+    /* .content, .h1_text, .text_content, .Picture, .Button{
+        width: 100%;
+        margin: auto;
+    } */
+    .Content_section, .Button, .Picture{
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .Picture{
+        margin-top: 20px;
+    }
+    .col-md-6{
+        width: 100%;
+        text-align: center;
+    }
 }
 .banner {
     width: 100%;
@@ -35,6 +51,7 @@ html{
 }
 
 .h1_text{
+    width: 100%;
     font-size: 55px;
     line-height: 1;
     letter-spacing: -0.03em;
@@ -50,10 +67,15 @@ html{
 }
 
 .Content_section{
+    /* display: flex; */
+    width: 100%;
+    max-width: 1200px;
+    min-width: none;
+    margin: auto;
+
     display: flex;
-    width: 1200px;
-    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 #Content_4 {
     display: flex;
@@ -93,14 +115,20 @@ html{
     /* margin-left: auto;
     margin-right: auto; */
     margin: auto;
-    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 .Picture
 {
-    width: 50%;
+    width: 60%;
+    margin-top: 30px;
     position: relative;
     display: flex;
+    justify-content: center;
     padding-bottom: 40px;
+
 }
 
 .Button{
@@ -108,19 +136,19 @@ html{
     padding: 20px 35px;
     border-radius: var(--button-radius);
     background-color: var(--primary-color);
-    width: 200px;
+    text-align: center;
+    width: 40%;
     text-decoration: none;
     font-weight: 700;
     color: #fff;
 }
 
 .text_content{
-    margin-bottom: 80px;
     color: var(--sub-color_1);
     font-size: var(--text_1_font);
     line-height: 1.34;
     font-weight: 400;
-    width: 560px;
+    width: 100%;
 }
 
 
