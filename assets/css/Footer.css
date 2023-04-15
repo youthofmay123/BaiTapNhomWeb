@@ -1,15 +1,23 @@
 #Footer{
-    /* width: 1400px; */
+    display: block;
+    width: 100%;
     padding-top: 50px;
     background-color:  #f0f7f7;;
+}
+.wrapper_footer{
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: auto;
 }
 #Footer .Footer_top{
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    width: 100%;
     margin: auto;
     padding-bottom: 100px;
     border-bottom: 0.1px #eae3e3 solid;
+    gap: 2rem;
 }
 #Footer .Footer_1{
     width: 30%;
@@ -20,12 +28,13 @@
 }
 #Footer .Footer_2{
     width: 50%;
+    margin: 30px 20px;
     display: flex;
 }
 #Footer .Footer_2_1{
     justify-content: space-between;
     display: flex;
-    width: 90%;
+    gap: 10rem;
 }
 #Footer .Menu{
     
@@ -48,10 +57,10 @@
 #Footer .Footer_bottom{
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    width: 100%;
     height: 200px;
     margin: auto;
-    padding-top: 100px;
+    padding: 100px 20px;
 }
 
 #Footer .icon{
@@ -61,4 +70,19 @@
 }
 #Footer .right_footer a{
     padding: 10px;
+}
+
+@media (max-width: 992px){
+    #Footer{
+        display: block;
+    }
+    .Footer_1{
+        display: block;
+    }
+    #Footer .Footer_top {
+        display: block;
+    }
+    #Footer .Menu{
+        text-align:left;
+    }
 }
