@@ -142,7 +142,6 @@
 #Content_3 .Content_section{
     display: block;
     /* background-color: coral; */
-    margin-top: 100px;
 }
 #Content_3 .heading-content{
    text-align: center;
@@ -150,15 +149,14 @@
    /* transform: translateX(-50%); */
 }
 #Content_3 .member-list{
-    margin-top: 48px;
-    /* margin-left: 80px; */
-    /* overflow: hidden; */
+    display: flex;
+    overflow: hidden;
     justify-content: space-between;
+    width: 100%;
     /* flex-wrap: wrap; */
 }
 #Content_3 .member-item{
-    width: 30%;
-    /* width: calc(100% / 3); */
+    width: 33.3333%;
     
 }
 
@@ -183,12 +181,30 @@
 #Content_3 .line_colum{
     display: flex;
     width: 100%;
+    padding: 0;
     align-items: center;
     justify-content: center;
     margin-bottom: 70px;
     font-weight: 300;
     color: var(--sub-color_1);
     letter-spacing: 5px;
+}
+
+@media (max-width: 992px){
+    #Content_3{
+        min-width: 400px;
+    }
+    #Content_3 .member-list{
+        flex-wrap: wrap;
+    }
+    #Content_3 .member-item{
+        width: 100%;
+        display: block;
+    }
+    #Content_3 .line_colum{
+        margin: 0;
+        padding: 30px;
+    }
 }
 #Content_5{
 
@@ -240,6 +256,9 @@
     
 }
 #Slider .Slider_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     padding-right: 9px;
@@ -250,13 +269,16 @@
 }
 #Slider .Slider_picture{
     width: 100%;
+    max-height: 500px;
     height: 100%;
     padding: -10px;
     object-fit: cover;
 }
 #Slider .Slider_2{
-    margin-left: 10px;width: 100%;
+    margin-left: 10px;
+    width: 100%;
     height: 100%;
+    max-height: 500px;
     display: flex;
     padding: -10px;
     align-items: center;
@@ -268,8 +290,14 @@
 
 #Slider .Slider_2_1{
     margin-left: 2%;
-    width: 500px;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
     max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
 }
 #Slider .h1_text{
     color: #08878e;

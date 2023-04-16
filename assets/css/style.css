@@ -38,11 +38,18 @@ html{
         width: 100%;
         text-align: center;
     }
-    #Slider{
+     #Slider, #Footer{
         display: block;
     }
+    #Slider{
+        height:fit-content;
+    }
+    /*
     .Slider_1, .Slider_2{
         display: block;
+    } */
+    #Slider .Slider_2{
+        padding: 20px;
     }
     
 }
