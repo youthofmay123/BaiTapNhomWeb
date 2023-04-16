@@ -38,7 +38,7 @@ html{
         width: 100%;
         text-align: center;
     }
-     #Slider, #Footer{
+    #Slider, #Footer{
         display: block;
     }
     #Slider{
@@ -142,7 +142,7 @@ html{
 {
     width: 100%;
     margin-top: 30px;
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
