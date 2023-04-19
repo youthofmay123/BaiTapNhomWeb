@@ -1,1 +1,14 @@
+.Menu_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 150px;
+}
+.products-container {
+    margin: 120px 0;
+}
+.product-list {
+    min-height: 10000px;
 
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
         $(function() {
             $("#Header").load("./Header.html")
@@ -19,17 +20,20 @@
 <body>
     <div id="Header"></div>
     <div class="banner">
-        <h1 class="header">Get your food <span style="color: #35b8be">delivered</span>, </br>or <span style="color: #35b8be">pick-up</span> in store.</h1>
+        <h1 class="header" style=" font-weight: bold;">Get your food <span style="color: #35b8be">delivered</span>, </br>or <span style="color: #35b8be">pick-up</span> in store.</h1>
     </div>
-    <div class="products-container">
-        <div class="options">
-                <button class="btn-order load-products active" data-source="/assets/data/burger.json">Full Menu</button>
-                <button class="btn-order load-products" data-source="/assets/data/burger.json">Burger</button>
-                <button class="btn-order load-products" data-source="/assets/data/sides.json">Sides</button>
-                <button class="btn-order load-products" data-source="/assets/data/drink.json">Drinks</button>
+    <div class="Menu_product">
+        <div class="products-container">
+            <div class="options">
+                    <button class="btn-order load-products active" data-source="/assets/data/burger.json">Full Menu</button>
+                    <button class="btn-order load-products" data-source="/assets/data/burger.json">Burger</button>
+                    <button class="btn-order load-products" data-source="/assets/data/sides.json">Sides</button>
+                    <button class="btn-order load-products" data-source="/assets/data/drink.json">Drinks</button>
+            </div>
+            <div id="product-list"></div>
         </div>
-        <div id="product-list"></div>
     </div>
      <div id="Footer"></div>
+     <script src="/JavaScript/order.js"></script>
 </body>
 </html>
