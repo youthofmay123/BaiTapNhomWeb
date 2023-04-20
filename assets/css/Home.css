@@ -311,14 +311,14 @@
 }
 #Slider .h1_text{
     color: #08878e;
-    align-items: center;
-    margin-bottom: 100px;
+    margin-top: 10pxbâm;
 }
 #Slider .text_color{
     color: #fff;
 }
 #Slider .Button{
     background-color: #fff;
+    margin-bottom: 100px;
     text-align: center;
     color: var(--primary-color);
     font-weight: 500;
