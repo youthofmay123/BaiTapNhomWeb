@@ -2,6 +2,11 @@
 #Header{
     background-color: #fff;
 }
+#wrapper{
+    width: 100%;
+    height: 1500px;
+}
+
 .part_1{
     background-color: #f0f7f7;
     display: flex;
@@ -99,17 +104,18 @@
 
 }
 .part_3_background{
+    display: flex;
     width: 100%;
-    height: 100%;
+    height: 800px;
     position: fixed;
     background: url('/assets/img/slider_picture.png') no-repeat;
     filter: brightness(50%);
     background-size: cover;
-    /* position: fixed; */
+    background-position: center;
     z-index: -1;
 }
 .part_3{
-    height: 220px;
+    height: 300px;
     /* background: transparent; */
     display: flex;
     justify-content: center;
@@ -134,7 +140,7 @@
     text-align: center;
 }
 @media (max-width: 992px){
-    .part_3{
+    .part_3, .part_3_background{
         display: block;
     }
     .list_item{
