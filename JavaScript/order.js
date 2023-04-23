@@ -8,7 +8,7 @@ function loadProducts(source) {
     .then(response => response.json()) 
     .then(products => {
       productList.innerHTML = '';
-      products.forEach(product => {
+      products.forEach(product => { 
         const productElement = document.createElement('div');
         productElement.classList.add('col-xs-12', 'col-md-6');
         productElement.innerHTML = `
