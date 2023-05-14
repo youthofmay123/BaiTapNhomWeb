@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- <style>
-        .cell {
-            background-color: aqua;
-            /* height: 50px; */
-            border: 1px solid #ccc;
-        }
-    </style> -->
+  <meta charset="UTF-8">
+  <title>Example</title>
+  <!-- Link tới file CSS của Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* CSS tùy chỉnh */
+    .custom-bg {
+      background-color: #f8f9fa;
+      min-height: 200px;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
-
-
 <body>
-<div class="container">
-    <div class="col-sm-6 col-xs-12 col-lg-3 cell">  
-        <h2>ahc</h2>
-        <h1>jckqac</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12 mb-4 mb-md-0 custom-bg">
+        <!-- Cột thứ nhất -->
+        <div class="row">
+            <div class="col-md-6 col-12 mb-4 mb-md-0 custom-bg">
+              <!-- Cột thứ nhất -->
+              <h1>aclacabdfb</h1>
+            </div>
+            <div class="col-md-6 col-12 custom-bg">
+              <!-- Cột thứ hai -->
+              <h2>Cột thứ hai</h2>
+              <p>Nội dung cột thứ hai</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-12 custom-bg">
+        <!-- Cột thứ hai -->
+        <h2>Cột thứ hai</h2>
+        <p>Nội dung cột thứ hai</p>
+      </div>
     </div>
-    <div class="col-sm-6 col-xs-12 col-lg-3 cell">
-        <h2>ahc</h2>
-        <h1>jckqac</h1>
-    </div>
-    <div class="col-sm-6 col-xs-12 col-lg-3 cell">
-        <h2>ahc</h2>
-        <h1>jckqac</h1>
-    </div>
-    <div class="col-sm-6 col-xs-12 col-lg-3 cell"> 
-        <h2>ahc</h2>
-        <h1>jckqac</h1>
-    </div>
-</div>
+  </div>
 
+  <!-- Link tới file JavaScript của Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>

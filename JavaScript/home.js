@@ -8,7 +8,7 @@ function loadProducts(source) {
       productList.innerHTML = '';
       products.forEach(product => {
         const productElement = document.createElement('div');
-        productElement.classList.add('col-xs-12', 'col-md-6','table-cell');
+        productElement.classList.add('col-xs-12', 'col-md-6');
         productElement.innerHTML = `
         <div class="product-item" style="position: relative;">
         <div class="img">
