@@ -8,14 +8,17 @@ function loadProducts(source) {
       productList.innerHTML = '';
       products.forEach(product => {
         const productElement = document.createElement('div');
-        productElement.classList.add('col-xs-12', 'col-md-6');
+        productElement.classList.add('col-lg-6', 'col-md-12', 'col-sm-6', 'col-xs-12');
         productElement.innerHTML = `
         <div class="product-item" style="position: relative;">
         <div class="img">
-            <img src="${product.img}" alt="" style="width: 120x; height: 120px; border-radius: 5%;">
+            <img src="${product.img}" alt="" style="border-radius: 5%;" id = "img-product">
         </div>
         <div class="info">
             <h2 class="title">${product.name}</h2>
+            <p class="price-product">
+            $ ${product.price} USD
+            </p>
             <p class="sub-title">
                 ${product.info}
             </p>
@@ -24,9 +27,6 @@ function loadProducts(source) {
                 <a href="#" style="width: 120px; height: 40px; background-color: #35b8be; display: inline-block; border-radius: 5px; text-decoration: none; color: #fff; text-align: center; line-height: 40px; margin: 0 8px;">Add to Cart</a>
             </div>
         </div>
-            <p class="price-product" style="color: #35b8be; font-size: 16px; position: absolute; right: 0; top: 0; padding: 32px;">
-            $ ${product.price} USD
-            </p>
         </div>
         `;
         productList.appendChild(productElement);

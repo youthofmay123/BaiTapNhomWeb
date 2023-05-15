@@ -36,7 +36,7 @@ html{
     }
     .col-md-6{
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
     }
     #Slider, #Footer{
         display: block;
@@ -51,7 +51,43 @@ html{
     #Slider .Slider_2{
         padding: 20px;
     }
+
+
+
+    .product-item {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    #img-product {
+        /* box-sizing: border-box; */
+        width: 360px;
+        height: 360px;
+    }
+
     
+}
+
+
+#img-product {
+    width: 120x; 
+    height: 120px; 
+}
+
+@media (max-width: 992px) {
+    .price-product {
+        position: initial;
+        right: initial;
+        top: initial;
+    }
+}
+.price-product {
+    color: #35b8be;
+    font-size: 16px;
+    display: block;
 }
 .banner {
     width: 100%;
